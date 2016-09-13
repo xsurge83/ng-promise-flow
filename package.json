@@ -1,0 +1,23 @@
+{
+  "name": "ng-promise-flow",
+  "version": "1.0.0",
+  "description": "Promise Utilities for ng ",
+  "main": "dist/ng-promise-flow.js",
+  "scripts": {
+    "build:prod": "NODE_ENV=production webpack -p --progress --colors",
+    "build:dev": "NODE_ENV=dev webpack  --progress --colors",
+    "serve": "./node_modules/.bin/webpack-dev-server -d --content-base ./demo --progress --port 8888 --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "0.8.2",
+    "tslint": "3.15.1",
+    "tslint-loader": "2.1.5",
+    "typescript": "1.8.10",
+    "typing": "0.1.9",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.15.1"
+  }
+}
